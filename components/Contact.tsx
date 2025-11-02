@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Send, Linkedin, Instagram, Youtube } from "lucide-react";
+import { Mail, Phone, MapPin, Send, Facebook, Instagram, Youtube } from "lucide-react";
 import { useState } from "react";
 
 const Contact = () => {
@@ -39,8 +39,8 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "+8801737183436",
-      href: "tel:+8801737183436",
+      value: "01613782804",
+      href: "tel:+8801613782804",
     },
     {
       icon: MapPin,
@@ -51,9 +51,9 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Youtube, href: "#", label: "YouTube" },
+    { icon: Facebook, href: "https://www.facebook.com/hasibur.rahman.shefat.2025", label: "Facebook" },
+    { icon: Instagram, href: "https://www.instagram.com/your_shefu/", label: "Instagram" },
+    { icon: Youtube, href: "https://youtube.com/@hasiburrahmanshefat7891?si=8dwCrEJG7SfVng2c", label: "YouTube" },
   ];
 
   return (
@@ -140,6 +140,8 @@ const Contact = () => {
                     <motion.a
                       key={index}
                       href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       whileHover={{ scale: 1.1, y: -5 }}
                       whileTap={{ scale: 0.95 }}
                       className="w-12 h-12 rounded-xl bg-dark-lighter/50 border border-accent-orange/20 hover:border-accent-orange flex items-center justify-center transition-all duration-300"
