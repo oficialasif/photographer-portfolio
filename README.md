@@ -96,5 +96,4 @@ Update the `handleDownloadResume` function in `components/Navbar.tsx` to link to
 ## License
 
 This project is open source and available for personal or commercial use.
-Developed by Asif Mahmud
 
