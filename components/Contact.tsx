@@ -74,7 +74,7 @@ const Contact = () => {
             Contact
           </h2>
           <p className="text-gray-400 font-body text-lg md:text-xl max-w-2xl mx-auto">
-            Let's discuss your project and bring your vision to life
+            Let&apos;s discuss your project and bring your vision to life
           </p>
         </motion.div>
 
@@ -92,7 +92,7 @@ const Contact = () => {
                 Get in Touch
               </h3>
               <p className="text-gray-400 font-body text-base md:text-lg mb-8">
-                Ready to create something amazing together? Reach out and let's
+                Ready to create something amazing together? Reach out and let&apos;s
                 start the conversation.
               </p>
             </div>
